@@ -1,0 +1,17 @@
+{
+  "name": "banana",
+  "version": "0.1.0",
+  "description": "Banana repo which extends the core repo",
+  "author": "Richard Petersen",
+  "license": "CC-BY-NC-SA-2.5",
+  "scripts": {
+    "dev": "webpack-dev-server --content-base static/"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^4.3.1",
+    "eslint": "^4.15.0",
+    "eslint-loader": "^1.9.0",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.0"
+  }
+}
